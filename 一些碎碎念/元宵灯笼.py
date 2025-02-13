@@ -188,7 +188,7 @@ def fire():
     # 加载字体
     font = pg.font.SysFont("comicsansms", 99)
     # 渲染文本
-    text = "Happy Lantern Festival  WZ"
+    text = "Happy Lantern Festival"
     text_color = (255, 190, 200)  # 字体颜色
     rendered_text = font.render(text, True, text_color)
     while running:
