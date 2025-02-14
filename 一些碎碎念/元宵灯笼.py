@@ -186,9 +186,9 @@ def fire():
     fireworks = [Firework() for i in range(2)]
     running = True
     # 加载字体
-    font = pg.font.SysFont("comicsansms", 99)
+    font = pg.font.SysFont("comicsansms", 100)
     # 渲染文本
-    text = "Happy Lantern Festival"
+    text = "Happy Lantern Festival  "
     text_color = (255, 190, 200)  # 字体颜色
     rendered_text = font.render(text, True, text_color)
     while running:
