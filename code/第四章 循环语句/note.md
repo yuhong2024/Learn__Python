@@ -19,6 +19,33 @@ i + = 1
 
 </p>
 
+![img_1.png](img/img_1.png)
+
+![img_2.png](img/img_2.png)
+
+
+![img_3.png](img/img_3.png)
+
+<img alt="img_4.png" src="img/img_4.png"/>
+
+
+while循环的嵌套
+![img.png](img.png)
+
+不换行 end=''
 ![img_1.png](img_1.png)
 
+# print("hello world",end='')
+# print("hello world",end='')
+#
+
+
+对齐 制表符\t
+字符串在多行中也能对齐
 ![img_2.png](img_2.png)
+print("Hello\tworld") #记得删除空格
+print("iTheima\tbest")
+
+
+案例 打印九九乘法口诀表
+![img_3.png](img_3.png)
