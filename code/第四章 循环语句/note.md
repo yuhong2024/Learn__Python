@@ -101,3 +101,16 @@ range(num1,num2,step)
 ![img_1.png](img_1.png)
 
 
+在for循环外部访问临时变量，需要在前面定义
+![img_2.png](img_2.png)
+
+
+continue 终端本次循环，直接进入下一次循环
+ ![img_3.png](img_3.png)
+
+
+break 直接结束循环
+![img_4.png](img_4.png)
+
+![img_5.png](img_5.png)
+
