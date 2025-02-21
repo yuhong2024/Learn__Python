@@ -1,5 +1,5 @@
 """
-演示可视化需求1：折线图开发
+可视化需求1：折线图开发
 """
 import json
 from pyecharts.charts import Line
