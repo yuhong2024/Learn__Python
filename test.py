@@ -1,23 +1,22 @@
+def extract_fasta_headers(input_file, output_file):
+    """
+    从FASTA文件中提取标题并保存到txt文件
 
-"""
-本代码演示了：
--各类字面量的写法
--通过print语句输出字面量
-
-"""
-
-from traceback import print_tb
-# 写一个整数字面量
-666
-# 写一个浮点数字面量
-13.14
-# 写一个字符串字面量
-"黑马程序员"
-
-# 请注意这是单行注释
+    参数:
+        input_file: 输入的FASTA文件路径
+        output_file: 输出的txt文件路径
+    """
+    with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
+        for line in infile:
+            if line.startswith('>'):
+                # 去除'>'并去除两端空白字符后写入输出文件
+                header = line[1:].strip()
+                outfile.write(header + '\n')
 
 
-# 通过print语句输出各类字面量
-print(666)
-print(1314)
-print("heimachengxuyuan") 
+# 使用示例
+input_path = r"D:\run\0330\napus\ap2.fas"
+output_path = r"D:\run\0330\napus\headers.txt"  # 你可以修改输出路径
+
+extract_fasta_headers(input_path, output_path)
+print(f"标题已提取并保存到 {output_path}")
